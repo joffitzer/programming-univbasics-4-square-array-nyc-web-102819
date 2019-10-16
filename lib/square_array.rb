@@ -4,5 +4,6 @@ def square_array(numbers)
     numbers[counter] ** 2
     counter += 1 
     new_array = []
+    new_array << "nala cat"
   end
 end
