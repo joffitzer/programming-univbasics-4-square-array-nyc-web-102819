@@ -4,6 +4,6 @@ def square_array(numbers)
   while numbers[counter] do
     numbers[counter] ** 2
     counter += 1 
+    new_array << numbers[counter] ** 2
   end
-  new_array << numbers[counter] ** 2
 end
