@@ -3,6 +3,6 @@ def square_array(numbers)
   while numbers[counter] do
     numbers[counter] ** 2
     counter += 1 
-    (1..3)
+    (1..3).to_a 
   end
 end
